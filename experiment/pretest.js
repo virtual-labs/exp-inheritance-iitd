@@ -94,8 +94,8 @@
       question: "Q2. What is subclass in java?",
       answers: {
         a: "A subclass is a class that extends another class",
-        b: " A subclass is a class declared inside a class"
-        c: " Both above."
+        b: " A subclass is a class declared inside a class",
+        c: " Both above.",
         d: "None of the above."
       },
       correctAnswer: "a"
@@ -127,8 +127,8 @@
       question: "Q5. Advantage of inheritance in java programming is/are",
       answers: {
         a: " Code Re-usability",
-        b: " Class Extendibility"
-        c: " Save development time"
+        b: " Class Extendibility",
+        c: " Save development time",
         d: " All"
       },
       correctAnswer: "d"
