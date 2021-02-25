@@ -108,8 +108,8 @@
     
     answers: {
         a: "upper",
-        b: "super" 
-        b: "this" 
+        b: "super" ,
+        b: "this" ,
         b: " none of the mentioned"        
       },
       correctAnswer: "b"
@@ -124,7 +124,9 @@
         c: "more classes inheriting from more super classes",
         d: "None of the above"
  
-    },
+      },
+	 correctAnswer: "b"	
+    },	
 	
 	{
       question: "Q5. What is the output of the following program?",
