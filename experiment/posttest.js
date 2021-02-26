@@ -80,13 +80,13 @@
 
   const myQuestions = [
     {
-      question: "Q1. What will be the output of the following Java program?",
+      question: "Q1. Which of these keywords can be used to prevent inheritance of a class?",
 
       answers: {
-        a: "2 2",
-        b: "3 3",
-        c: "2 3",
-        d: "3 2"
+        a: "class",
+        b: "super",
+        c: "final",
+        d: "constant"
       },
       correctAnswer: "c"
     },
@@ -104,14 +104,15 @@
     },
 
     {
-    question: "Q3.  Which of these keywords is used to refer to member of base class from a sub class?  ",
-    
-    answers: {
+    question: "Q3.  Which of these keywords is used to refer to member of base class from a sub class?",
+         answers: {
         a: "upper",
-        b: "super" ,
-        b: "this" ,
-        b: " none of the mentioned"        
+        b: "super",
+        c: "this",
+        d: "None of the above"
+ 
       },
+  
       correctAnswer: "b"
 
     },
@@ -129,13 +130,13 @@
     },	
 	
 	{
-      question: "Q5. What is the output of the following program?",
+      question: "Q5. Does a subclass inherit both member variables and methods?",
       
       answers: {
-        a: "22",
-        b: "33",
-        c: "23",
-        d: "32"
+        a: "Yes--both are inherited",
+        b: "No--only member variables are inherited",
+        c: "No--only methods are inherited",
+        d: "Yes--but only one or the other are inherited"
  
 
       },
