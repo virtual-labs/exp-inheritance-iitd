@@ -1,7 +1,8 @@
-## Inheritance in Java
+### Inheritance in Java
 **Inheritance in Java** is a mechanism in which one object acquires all the properties and behaviors of a parent object. It is an important part of OOPs (Object Oriented programming system).
-The idea behind inheritance in Java is that you can create new classes that are built upon existing classes. When you inherit from an existing class, you can reuse methods and fields of the parent class. Inheritance represents the **IS-A relationship** which is also known as a parent-child relationship.
-## The syntax of Java Inheritance
+The idea behind inheritance in Java is that you can create new classes that are built upon existing classes. When you inherit from an existing class, you can reuse methods and fields of the parent class. Inheritance represents the **IS-A relationship** which is also known as a **parent-child relationship**.
+
+### The syntax of Java Inheritance
 
 ```sh
 	class Subclass-name extends Superclass-name  
@@ -10,9 +11,9 @@ The idea behind inheritance in Java is that you can create new classes that are 
 	}  
 
 ```
-
 The **extends keyword** indicates that you are making a new class that derives from an existing class. The meaning of "extends" is to increase the functionality.
-#### Simple Example of Inheritance
+
+### Simple Example of Inheritance
 
 ```sh
 	class Employee
@@ -31,7 +32,7 @@ The **extends keyword** indicates that you are making a new class that derives f
 
 ```
 
-#### OUTPUT
+### OUTPUT
 
 ```sh
 Programmer salary is:40000.0
@@ -39,7 +40,7 @@ Bonus of programmer is:10000
 
 ```
 
-#### Types of inheritance in java
+### Types of inheritance in java
 
 - **Single Inheritance:** When a class inherits another class, it is known as a single inheritance. In the example given below, Dog class inherits the Animal class, so there is the single inheritance.
 
@@ -66,7 +67,7 @@ d.eat();
 
 ```
 
-#### OUTPUT
+### OUTPUT
 
 ```sh
 barking...
@@ -96,7 +97,7 @@ d.eat();
 
 ```
 
-#### OUTPUT
+### OUTPUT
 
 ```sh
 weeping...
@@ -126,7 +127,7 @@ c.eat();
 
 ```
 
-#### OUTPUT
+### OUTPUT
 
 ```sh
 meowing...
