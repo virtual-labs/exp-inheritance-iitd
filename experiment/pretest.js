@@ -80,7 +80,7 @@
 
   const myQuestions = [
     {
-      question: "Q1. Which inheritance in java programming is not supported",
+      question: "Q1. Which inheritance in java programming is not supported?",
       answers: {
         a: "Multiple inheritance using classes",
         b: " Multiple inheritance using interfaces",
@@ -102,7 +102,7 @@
     },
 
     {
-      question: "Q3. If class B is subclassed from class A then which is the correct syntax",
+      question: "Q3. If class B is subclassed from class A then which is the correct syntax?",
       answers: {
         a: " class B:A{}",
         b: "class B extends A{}",
@@ -113,7 +113,7 @@
     },
 	
 	{
-      question: "Q4. Inheritance relationship in Java language is",
+      question: "Q4. Inheritance relationship in Java language is_____.",
       answers: {
         a: "Association",
         b: "Is-A",
@@ -124,7 +124,7 @@
     },
 	
 	{
-      question: "Q5. Advantage of inheritance in java programming is/are",
+      question: "Q5. Advantage of inheritance in java programming is/are_____.",
       answers: {
         a: " Code Re-usability",
         b: " Class Extendibility",
