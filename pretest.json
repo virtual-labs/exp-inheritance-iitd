@@ -1,0 +1,46 @@
+[{
+	"question": "Q1. Which inheritance in java programming is not supported?",
+	"answers": {
+		"a": "Multiple inheritance using classes",
+		"b": " Multiple inheritance using interfaces",
+		"c": "Multilevel inheritance",
+		"d": "Single inheritance"
+	},
+	"correctAnswer": "a"
+}, {
+	"question": "Q2. What is subclass in java?",
+	"answers": {
+		"a": "A subclass is a class that extends another class",
+		"b": " A subclass is a class declared inside a class",
+		"c": " Both above.",
+		"d": "None of the above."
+	},
+	"correctAnswer": "a"
+}, {
+	"question": "Q3. If class B is subclassed from class A then which is the correct syntax?",
+	"answers": {
+		"a": " class B:A{}",
+		"b": "class B extends A{}",
+		"c": "class B extends class A{}",
+		"d": " class B implements A{}"
+	},
+	"correctAnswer": "b"
+}, {
+	"question": "Q4. Inheritance relationship in Java language is_____.",
+	"answers": {
+		"a": "Association",
+		"b": "Is-A",
+		"c": "Has-A",
+		"d": "None"
+	},
+	"correctAnswer": "b"
+}, {
+	"question": "Q5. Advantage of inheritance in java programming is/are_____.",
+	"answers": {
+		"a": " Code Re-usability",
+		"b": " Class Extendibility",
+		"c": " Save development time",
+		"d": " All"
+	},
+	"correctAnswer": "d"
+}]

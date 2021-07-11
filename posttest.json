@@ -1,0 +1,46 @@
+[{
+	"question": "Q1. Which of these keywords can be used to prevent inheritance of a class?",
+	"answers": {
+		"a": "class",
+		"b": "super",
+		"c": "final",
+		"d": "constant"
+	},
+	"correctAnswer": "c"
+}, {
+	"question": "Q2. Which of these is correct way of inheriting class A by class B?",
+	"answers": {
+		"a": " class B + class A {}",
+		"b": "class B extends A {}",
+		"c": " class B inherits class A {}",
+		"d": " class B extends class A {}"
+	},
+	"correctAnswer": "b"
+}, {
+	"question": "Q3.  Which of these keywords is used to refer to member of base class from a sub class?",
+	"answers": {
+		"a": "upper",
+		"b": "super",
+		"c": "this",
+		"d": "None of the above"
+	},
+	"correctAnswer": "b"
+}, {
+	"question": "Q4. Multiple inheritance means,",
+	"answers": {
+		"a": "one class inheriting from more super classes",
+		"b": "more classes inheriting from one super class",
+		"c": "more classes inheriting from more super classes",
+		"d": "None of the above"
+	},
+	"correctAnswer": "b"
+}, {
+	"question": "Q5. Does a subclass inherit both member variables and methods?",
+	"answers": {
+		"a": "Yes--both are inherited",
+		"b": "No--only member variables are inherited",
+		"c": "No--only methods are inherited",
+		"d": "Yes--but only one or the other are inherited"
+	},
+	"correctAnswer": "a"
+}]
