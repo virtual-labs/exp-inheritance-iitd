@@ -49,7 +49,7 @@ A upper<br>
 C this<br>
 D none of the mentioned<br>
 
-Q4. Multiple inheritance means,<br>
+Q4. Meaning of Multiple inheritance?<br>
 **A one class inheriting from more super classes**<br>
 B more classes inheriting from one super class<br>
 C more classes inheriting from more super classes<br>
