@@ -12,11 +12,22 @@ B  A subclass is a class declared inside a class<br>
 C  Both above<br>
 D  None of the above.<br>
 
-Q3. If class B is subclassed from class A then which is the correct syntax?<br>
-A class B:A{}<br>
-**B class B extends A{}**<br>
-C class B extends class A{}<br>
-D class B implements A{}<br>
+Q3. Find Superclass and Subclass in the below Java code snippet?<br>
+
+```
+class B
+{
+  void show(){}
+}
+class A
+{
+  void hide(){}
+}
+```
+A B is superclass and A is subclass<br>
+B A is superclass and B is a subclass<br>
+**C There is no superclass or subclass present**<br>
+D None<br>
 
 Q4. Inheritance relationship in Java language is_____.<br>
 A Association<br>
