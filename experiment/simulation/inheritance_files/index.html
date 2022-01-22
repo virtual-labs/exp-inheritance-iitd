@@ -70,7 +70,7 @@ div.ex1 {
 <div class="ex1">
 <div class="row">
 <a href="#/" style="padding:15px;font-size:20px;"><button style="color:steelblue;"><u>Preview</u></button></a>
-<a href="http://ec2-65-1-58-72.ap-south-1.compute.amazonaws.com/javalab/index.php" target="blank" style="margin-left:-18px;font-size:20px;"><button style="color:steelblue;">&nbsp;&nbsp;&nbsp;&nbsp;Editor&nbsp;&nbsp;&nbsp;&nbsp;</button></a>
+<!-- <a href="http://ec2-65-1-58-72.ap-south-1.compute.amazonaws.com/javalab/index.php" target="blank" style="margin-left:-18px;font-size:20px;"><button style="color:steelblue;">&nbsp;&nbsp;&nbsp;&nbsp;Editor&nbsp;&nbsp;&nbsp;&nbsp;</button></a> -->
 </div>
 <div class="row">
 <div class="col-md-5">
@@ -105,23 +105,23 @@ function FunctionBack1(){
 }
 
 function createclass(){
-	document.getElementById("area").innerHTML = "<p style='font-size:16px'>//Creating Class<br>public class <input type='text' id='classname' style='width:120px;height:24px;'>&nbsp;&nbsp;{<br><br>}</p>&nbsp;<div style='margin-left:30%'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class='btn btn-primary' id='click1' >Next</button></div>";
+	document.getElementById("area").innerHTML = "<p style='font-size:16px'>//Creating Class<br>public class <input type='text' id='classname' style='width:120px;height:24px;'>&nbsp;&nbsp;{<br>// public class in java is a blueprint of objects which specifies properties and methods of objects belonging to that particular class.<br>}</p>&nbsp;<div style='margin-left:30%'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class='btn btn-primary' id='click1' >Next</button></div>";
 }
 
 function definingfields(classname){
-	document.getElementById("area").innerHTML = "<p style='font-size:16px'>//Defining fields<br>public class <span id='first'>"+classname+"</span>{<br>int <input type='text' id='basevn' style='width:120px;height:24px;'> = <input type='text' id='basevv' style='width:120px;height:24px;'> ;<br>}</p>&nbsp;<div style='margin-left:30%'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class='btn btn-primary' id='click2'>Next</button></div>";
+	document.getElementById("area").innerHTML = "<p style='font-size:16px'>//Defining fields<br>public class <span id='first'>"+classname+"</span>{<br>int <input type='text' id='basevn' style='width:120px;height:24px;'> = <input type='text' id='basevv' style='width:120px;height:24px;'> ;<br>// Int keyword is a primitive data type. It is used to declare variables.<br>}</p>&nbsp;<div style='margin-left:30%'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class='btn btn-primary' id='click2'>Next</button></div>";
 }
 
 function extendclass(basevn,basevv,first){
-	document.getElementById("area").innerHTML = "<p style='font-size:16px'>//Creating Super Class<br>public class <span id='first'>"+first+"</span> {<br>int <span id='basevn'>"+basevn+"</span> = <span id='basevv'>"+basevv+"</span> ;<br>}</p><p style='font-size:16px'>public class <input type='text' id='subclass' style='width:120px;height:24px;'> extends <span id='first'>"+first+"</span>{<br>}</p><div style='margin-left:30%'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class='btn btn-primary' id='click3' >Next</button></div>";
+	document.getElementById("area").innerHTML = "<p style='font-size:16px'>//Creating Super Class<br>public class <span id='first'>"+first+"</span> {<br>int <span id='basevn'>"+basevn+"</span> = <span id='basevv'>"+basevv+"</span> ;<br>}</p><p style='font-size:16px'>public class <input type='text' id='subclass' style='width:120px;height:24px;'> extends <span id='first'>"+first+"</span>{<br>// The class that inherits the other class is known as a subclass(or a derived class, extended class, or child class).<br>}</p><div style='margin-left:30%'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class='btn btn-primary' id='click3' >Next</button></div>";
 }
 
 function definingfieldssub(subclass,basevn,basevv,first){
-  document.getElementById("area").innerHTML = "<p style='font-size:16px'>//Creating Super Class<br>public class <span id='first'>"+first+"</span> {<br>int <span id='basevn'>"+basevn+"</span> = <span id='basevv'>"+basevv+"</span> ;<br>}</p><p style='font-size:16px'>public class <span id='subclass'>"+subclass+"</span> extends <span id='first'>"+first+"</span>{<br>int <input type='text' id='subvn' style='width:120px;height:24px;'> = <input type='text' id='subvv' style='width:120px;height:24px;'> ;<br>}</p><div style='margin-left:30%'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class='btn btn-primary' id='click4' >Next</button></div>";
+  document.getElementById("area").innerHTML = "<p style='font-size:16px'>//Creating Super Class<br>public class <span id='first'>"+first+"</span> {<br>int <span id='basevn'>"+basevn+"</span> = <span id='basevv'>"+basevv+"</span> ;<br>}</p><p style='font-size:16px'>public class <span id='subclass'>"+subclass+"</span> extends <span id='first'>"+first+"</span>{<br>int <input type='text' id='subvn' style='width:120px;height:24px;'> = <input type='text' id='subvv' style='width:120px;height:24px;'> ;<br>// type variableName = value; Where type is one of Java's types (such as int or String ), and variableName is the name of the variable (such as x or name). The equal sign is used to assign values to the variable.<br>}</p><div style='margin-left:30%'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class='btn btn-primary' id='click4' >Next</button></div>";
 }
 
 function mainclass(subclass,basevn,basevv,first,subvn,subvv){
-  document.getElementById("area").innerHTML = "<p style='font-size:16px'>//Creating Super Class<br>public class <span id='first'>"+first+"</span> {<br>int <span id='basevn'>"+basevn+"</span> = <span id='basevv'>"+basevv+"</span> ;<br>}</p><p style='font-size:16px'>public class <span id='subclass'>"+subclass+"</span> extends <span id='first'>"+first+"</span>{<br>int <span id='subvn'>"+subvn+"</span> = <span id='subvv'>"+subvv+"</span> ;<br>public static void main(String[] args){<br><span id='subclass'>"+subclass+"</span> <input type='text' id='obj' style='width:120px;height:24px;'> = new <span id='subclass'>"+subclass+"</span>( ) ;<br>}<br>}</p><div style='margin-left:30%'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class='btn btn-primary' id='click5' >Next</button></div>";
+  document.getElementById("area").innerHTML = "<p style='font-size:16px'>//Creating Super Class<br>public class <span id='first'>"+first+"</span> {<br>int <span id='basevn'>"+basevn+"</span> = <span id='basevv'>"+basevv+"</span> ;<br>}</p><p style='font-size:16px'>public class <span id='subclass'>"+subclass+"</span> extends <span id='first'>"+first+"</span>{<br>int <span id='subvn'>"+subvn+"</span> = <span id='subvv'>"+subvv+"</span> ;<br>public static void main(String[] args){<br><span id='subclass'>"+subclass+"</span> <input type='text' id='obj' style='width:120px;height:24px;'> = new <span id='subclass'>"+subclass+"</span>( ) ;<br>}<br>// ClassName object = new ClassName(); creating object<br>}</p><div style='margin-left:30%'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class='btn btn-primary' id='click5' >Next</button></div>";
 }
 
 function sopdisplay(subclass,basevn,basevv,first,subvn,subvv,obj){
